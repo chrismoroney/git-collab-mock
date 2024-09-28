@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Repositories</h1>
+    <ul>
+        {% for repository in repositories %}
+        <li>{{ repository.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
